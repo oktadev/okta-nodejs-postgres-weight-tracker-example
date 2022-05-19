@@ -6,7 +6,7 @@ const createServer = require( "./server" ).createServer;
 const init = async () => {
 	dotenv.config();
 	const config = {
-		port: process.env.PORT || 3000,
+		port: process.env.PORT || 8080,//My edit from 3000 to 8080
 		host: process.env.HOST || "localhost"
 	};
 	const server = await createServer( config );
