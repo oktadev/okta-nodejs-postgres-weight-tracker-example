@@ -42,4 +42,4 @@ module.exports = [
 	home,
 	staticAssets,
 	error404
-].concat( api, auth, measurements );
+].concat( api, auth, measurements );//todo, in video it is: auth, api, measurementes
